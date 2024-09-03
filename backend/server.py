@@ -12,6 +12,9 @@ def index():
     # 戻り値がそのままWebサイトに表示される。
     return jsonify({"result":"This is Backend API Server."})
 
+@app.route("/help")
+def help():
+    return "This is Hepl Page!!"
 
 # データ検索用関数
 # URLルーティングの<income>,<rooms>,<ages>がそれぞれ関数の引数に入ってくる。
