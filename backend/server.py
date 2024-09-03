@@ -14,7 +14,7 @@ def index():
 
 @app.route("/help")
 def help():
-    return "This is Hepl Page!!"
+    return "This is Hepl Page!!!"
 
 # データ検索用関数
 # URLルーティングの<income>,<rooms>,<ages>がそれぞれ関数の引数に入ってくる。
